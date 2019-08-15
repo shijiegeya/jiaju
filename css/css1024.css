@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:1024px){
+/**白色导航栏开始*/
+#head .navbar-brand {
+    top: 0px;
+	left: 3em;
+}
+#head .navbar img {
+    width: 5.6em;
+}
+/*白色导航栏结束*/
+}

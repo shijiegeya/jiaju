@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1350px){
+/*白色导航栏开始*/
+#head .navbar-nav {
+    margin-left: 22em;
+}
+/*白色导航栏结束*/
+}

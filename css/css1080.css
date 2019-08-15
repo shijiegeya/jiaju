@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:1080px){
+/* 白色导航栏开始*/
+#head .navbar-brand {
+	margin-left: 0em;
+}
+#head .navbar-nav {
+    margin-left: 13em;
+}
+/*白色导航栏结束**/
+/*滚播广告栏开始*/
+#head .banner .rslides::after{
+	left:0em;
+	bottom: -8em;
+}
+#head .rslides img{
+	height:700px;	
+}
+/*滚播广告栏结束*/
+
+/**三张图片开始**/
+#body .container .sanzhangtupian .san_shang .santuwenzi p{
+	padding:1em 2em;	
+}
+#body .container .sanzhangtupian .san_zhong .santuwenzi p{
+	padding:1em 2em;	
+}
+#body .container .sanzhangtupian .san_xia .santuwenzi p{
+	padding:1em 2em;	
+}
+
+#body .container .sanzhangtupian .san_shang .fangdajing{
+	width:300px;
+	height:200px;
+}
+/**三张图片结束**/
+/*foot开始*/
+#foot .container .dibusan .dbs_zhong .quxiao{
+	margin-left:4.5em;	
+}
+#foot .container .dibusan .dbs_zhong .denglu{
+	margin-left:1em;		
+}
+/* foot结束*/
+}

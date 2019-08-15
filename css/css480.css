@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:480px){
+/*黑色导航栏开始**/
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-zuo {
+	margin-right:0em;
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-you {
+	margin-left::0em;	
+}
+/*黑色导航栏结束**/
+/*滚动广告开始*/
+#head .banner .rslides::after{
+	left:0em;
+	bottom:-7em;	
+}
+/*滚动广告结束*/
+
+
+/*body两张图片开始*/
+#body .container .lztp img{
+	height:200px;
+}
+#body .container .lztp .baisewenzi span{
+	margin-top:1.2em;
+}
+/*body两张图片结束*/
+
+/*三张图片开始*/
+#body .container .santou h1{
+	font-size:2em;
+	margin-top:2em;	
+}
+#body .container .santou h5 {
+    font-size: 0.3em;
+}
+#body .container .sanzhangtupian .san_shang .santuwenzi h3{
+	font-size:1.5em;	
+}
+#body .container .sanzhangtupian .san_shang .santuwenzi p{
+	font-size:0.3em;		
+}
+
+#body .container .sanzhangtupian .san_zhong .santuwenzi h3{
+	font-size:1.5em;	
+}
+#body .container .sanzhangtupian .san_zhong .santuwenzi p{
+	font-size:0.3em;		
+}
+
+#body .container .sanzhangtupian .san_xia .santuwenzi h3{
+	font-size:1.5em;	
+}
+#body .container .sanzhangtupian .san_xia .santuwenzi p{
+	font-size:0.3em;		
+}
+/*三张图片结束*/
+/*全景开始*/
+#quanjing .qjtp_shang h1{
+	font-size:2em;		
+}
+#quanjing .qjtp_shang h5{
+	font-size:0.3em;		
+}
+/*全景结束*/
+
+
+}

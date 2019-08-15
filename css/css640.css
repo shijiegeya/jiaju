@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:640px){
+/*滚播广告栏开始*/
+#head .rslides img {
+    height: 350px;
+}
+#head .banner .triplx {
+    top: 1em;
+    font-size: 2em;
+}
+#head .banner .rslides li .beaut {
+    top: 5em;
+    font-size: 1.3em;
+}
+#head .banner .rslides li .suspen {
+    top: 10em;
+    font-size: 1em;
+}
+#head .banner .rslides1_tabs {
+    top: 13em;
+}
+#head .banner .bt1 {
+    top: 17em;
+}
+#head .banner .rslides::before{
+	transform: rotate(-7deg);
+ 	-webkit-transform: rotate(-7deg);	
+	-o-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+}
+#head .banner .rslides::before {
+    bottom: -8em;
+}
+#head .banner .rslides::after{
+	transform: rotate(-7deg);
+ 	-webkit-transform: rotate(-7deg);	
+	-o-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+}
+#head .banner .rslides::after {
+    left: -10em;
+    bottom: -8em;
+}
+#head .banner .rslides_nav .glyphicon-chevron-left{
+	width:0px;
+	height:0px;
+}
+#head .banner .rslides_nav .glyphicon-chevron-right{
+	right:1.5em;
+	width:0px;
+	height:0px;
+}
+
+
+
+/*滚播广告栏结束*
+
+/
+/*body两张图片开始*/
+#body .container .lztp img{
+	height:250px;
+}
+#body .container .lztp .baisewenzi span{
+	font-size:1.2em;	
+}
+/*body两张图片结束*/
+
+/*foot开始*/
+#foot .container .dibusan .dbs_zhong .quxiao{
+	margin-left:8.5em;	
+}
+/*foot结束*/
+}

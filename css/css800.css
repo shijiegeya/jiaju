@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:800px){
+/*白色导航下拉文字开始*/
+#head .dropdown-menu {
+    min-width: 112px;
+	font-size:8px;
+}
+/*白色导航下拉文字结束*/
+
+
+/*滚播广告栏开始*/
+#head .rslides img {
+    height: 500px;
+}
+#head .banner .rslides::after {
+    left: -10em;
+	bottom: -9em;
+}
+#head .banner .rslides::before{
+	bottom:-9em;
+}
+#head .banner .triplx{
+	top:1em;
+}
+#head .banner .rslides li .beaut{
+	top:5em;	
+}
+#head .banner .rslides li .suspen{
+	top:10em;	
+}
+#head .banner .rslides1_tabs{
+	top:16em;	
+}
+#head .banner .bt1{
+	top:22em;	
+}
+#head .banner .rslides_nav .glyphicon-chevron-left{
+	top:3.3em;
+	left:0.5em;	
+}
+#head .banner .rslides_nav .glyphicon-chevron-right{
+	top:3.3em;
+	right:0.5em;	
+}
+/*滚播广告栏结束*/
+
+}

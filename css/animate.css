@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+/**红色log开始**/
+.log_img{
+	animation:log_img  1s  linear;	
+}
+@keyframes  log_img{
+	0%{
+		transform:translateX(-100px);	
+	}
+	100%{
+		transform:translateX(0px);	
+	}
+}	 
+
+/**红色log结束**/
+/**标题开始*/
+
+.banner .biaotidh{
+	animation:biaotidh  1s  linear;	
+	
+}
+@keyframes  biaotidh{
+	0%{
+		transform:scale(0);		
+	}
+	100%{
+		transform:none;	
+	}
+}
+/*标题结束**/
+/**按钮开始*/
+.banner .btxuanzhuan{
+	animation:btxuanzhuan  1s  linear;	
+}
+@keyframes  btxuanzhuan{
+	0%{
+		transform:rotate(0deg);	
+	}
+	25%{
+		transform:rotate(-20deg);	
+	}
+	50%{
+		transform:rotate(0deg);	
+	}
+	75%{
+		transform:rotate(20deg);	
+	}
+	100%{
+		transform:rotate(0deg);	
+	}
+}	
+
+
+/**按钮结束*/
+/**三张图片开始*/
+.st_z{
+	animation:st_z  1s  linear;	
+}
+@keyframes  st_z{
+	0%{
+		transform:translateX(-300px);	
+	}
+	100%{
+		transform:translateX(0px);	
+	}
+}
+
+.st_y{
+	animation:st_y  1s  linear;	
+}
+@keyframes  st_y{
+	0%{
+		transform:translateX(300px);	
+	}
+	100%{
+		transform:translateX(0px);	
+	}
+}
+/**三张图片结束*/
+/**全景开始*/
+
+
+/*.dhzhezhao_y{
+	animation:dhzhezhao_y  1s  linear;	
+}
+@keyframes  dhzhezhao_y{
+	0%{
+		background-color:rgba(255,255,255,0.3);	
+	}
+	100%{
+		background-color:rgba(255,255,255,0.5);	
+	}
+}*/
+/**全景结束*/

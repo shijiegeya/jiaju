@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:768px){
+/*白色导航栏开始**/
+#head .navbar-nav {
+    margin-left: 10em;
+}
+#head .navbar-header{
+	padding:0.93em 0em 0.93em 0em;
+}
+#head .navbar-nav {
+    margin-left: 10em;
+}
+#head .navbar-brand {
+    top: 0px;
+    left: 2em;
+}
+/*白色导航栏结束**/
+/*两张图片开始*/
+#body .container .lztp{
+	width:100%;	
+}
+/*两张图片结束*/
+/**三张图片开始**/
+#body .container .sanzhangtupian{
+	width:100%;
+}
+/**三张图片结束**/
+}

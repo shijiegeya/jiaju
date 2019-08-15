@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:991px){
+/*黑色导航栏开始**/
+#head .heisetoubu .heisetoubu-zuo span{
+			text-align:center;
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-zuo {
+	float:left;
+	text-align:right;
+	padding-right:8em;
+	padding-left:0em;
+	padding-bottom:1em;
+	
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-you {
+	float:left;
+	padding-left:6em;
+	padding-bottom:1em;
+}
+/*黑色导航栏结束**/
+/*白色导航栏开始**/
+#head .navbar-nav > li > a {
+    padding: 2em 2em 2em 2em;
+}
+
+#body .container .sanzhangtupian .san_shang .fangdajing{
+	display:none !important;
+}
+/*白色导航栏结束**/
+
+/*滚播广告栏开始*/
+#head .rslides img {
+    height: 700px;
+}
+/*滚播广告栏结束*/
+
+/*body两张图片开始*/
+#body .container{
+}
+#body .container .lztp{
+	top:0em;
+	width:100%;
+}
+#body .container .lztp img{
+	height:300px;	
+}
+#body .container .lztp .baisewenzi span{
+	margin-top:1.7em;	
+}
+/*body两张图片结束*/
+
+/**三张图片开始**/
+
+#body .container .santou h1{
+	width:100%;
+	margin-top:3em;
+}
+#body .container .santou h5{
+	width:100%;
+}
+#body .container .sanzhangtupian{
+	padding:0em;
+	margin:0em;
+	width:100%;
+}
+#body .container .sanzhangtupian .san_shang {
+	width: 100%;
+	padding:0em;
+	margin:0em;
+}
+#body .container .sanzhangtupian .san_shang img{
+	width: 100%;
+}
+#body .container .sanzhangtupian .san_shang .santuwenzi{
+	width:100%;		
+}
+
+
+
+
+#body .container .sanzhangtupian .san_zhong {
+	width: 100%;
+	padding:0em;
+	margin:0em;
+}
+#body .container .sanzhangtupian .san_zhong img{
+	width:100%;	
+}
+#body .container .sanzhangtupian .san_zhong .santuwenzi{
+	width:100%;		
+}
+
+
+
+
+#body .container .sanzhangtupian .san_xia {
+	width: 100%;	
+	padding:0em;
+	margin:0em;
+}
+#body .container .sanzhangtupian .san_xia img{
+	width:100%;	
+}
+#body .container .sanzhangtupian .san_xia .santuwenzi{
+	width:100%;		
+}
+/**三张图片结束**/
+
+/*foot开始*/
+
+#foot .container .dibusan .dbs_zhong .quxiao{
+	margin-left:10.5em;	
+}
+/*foot结束*/
+/**客服开始*/
+.kefu{
+	display:none;	
+}
+.kefu2 img{
+	display:block	
+}
+/**客服结束*/
+}

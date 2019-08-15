@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:320px){
+/*黑色导航栏开始**/
+#head .heisetoubu .heisetoubu-zuo span{
+		font-size:0.8em;	 
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-zuo {
+	padding-right:3em;
+	padding-left:0em;
+	padding-bottom:1em;
+	
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-you {
+	padding-left:2em;
+	padding-bottom:1em;
+}
+/*黑色导航栏结束**/
+/*滚动广告开始*/
+#head .banner .triplx {
+    top: 0.1em;
+    font-size: 1.5em;
+}
+#head .banner .rslides li .beaut {
+    top: 4em;
+    font-size: 0.3em;
+}
+#head .banner .rslides li .suspen {
+    top: 7em;
+    font-size: 0.1em;
+}
+#head .banner .rslides li .suspen {
+    position: absolute;
+    width: 100%;
+    color: #FFF;
+	left:0em;
+	margin-left:0em;
+    position: absolute;
+    text-align: center;
+    z-index: 100;
+}
+#head .banner .rslides_nav .glyphicon-chevron-left{
+	top:2em;	
+}
+#head .banner .rslides_nav .glyphicon-chevron-right{
+	top:2em;	
+}
+#head .banner .rslides1_tabs{
+	top:8.5em;	
+}
+#head .banner .bt1 {
+    top: 12em;
+}
+#head .banner .rslides::before {
+    bottom: -6em;
+}
+#head .banner .rslides::after {
+    left: 0em;
+    bottom: -5em;
+}
+#head .rslides img {
+    height: 280px;
+}
+/*滚动广告结束*/
+
+/*body两张图片开始*/
+#body .container .lztp img{
+	height:150px;
+}
+#body .container .lztp .baisewenzi span{
+	margin-top:1em;
+	font-size:1em;
+}
+/*body两张图片结束*/
+
+
+
+/*三张图片开始*/
+#body .container .santou h1{
+	font-size:1.5em;
+	margin-top:2em;	
+}
+#body .container .santou h5 {
+    font-size: 0.3em;
+}
+#body .container .sanzhangtupian .san_shang .santuwenzi {
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+/*三张图片结束*/
+
+/*全景开始*/
+#quanjing .qjtp_shang h1{
+	font-size:1.5em;		
+}
+#quanjing .qjtp_zhong{
+	height:200px;	
+}
+#quanjing .qjtp_zhong .qjtp_zhong_zuo h1,#quanjing .qjtp_zhong .qjtp_zhong_you h1{
+	top:0.7em;	
+}
+/*全景结束*/
+
+
+/*foot开始*/
+#foot .container .dibusan .dbs_zhong .quxiao{
+	margin-left:3em;	
+}
+#foot .container .dibusan .dbs_you .bdsharebuttonbox .gx_a{
+	margin:5px !important;	
+}
+/*foot结束*/
+}

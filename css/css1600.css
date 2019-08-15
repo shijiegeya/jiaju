@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:1600px){
+/*黑色导航栏开始**/
+#BODY{
+	OVERFLOW: HIDDEN;	
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-zuo {
+		width:50%;
+}
+#head .heisetoubu .heisetoubu-you .heisetoubu-you-you {
+		width:50%;
+}
+/*黑色导航栏结束**/
+/*白色导航栏开始*/
+#head .navbar-nav {
+    margin-left: 25em;
+}
+/*白色导航栏结束**/
+}
